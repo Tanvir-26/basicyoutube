@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.label{
+    height: 25px;
+    width: 25px;
+}
+.header{
+    padding: 10px 10px;
+    width: 98%;
+    height: 45px;
+    position: relative;
+}
+.logo{
+    width: 20%;
+    position: relative;
+    float: left;
+}
+.logo .menu{
+    position: absolute;
+    top:13px;
+    left: 18px;
+}
+.logo .mainlogo{
+    position: absolute;
+    top: 10px;
+    left: 65px;
+    height: 25px;
+    width: 115px;
+}
+.mainlogo:hover{
+    cursor: pointer;
+}
+.logo h2{
+    position: absolute;
+    font-weight:bold;
+    top: 11px;
+    left: 95px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo h2 sup{
+    font-weight: normal;
+    font-size: 15px;
+}
+.menu2{   
+    width: 50%;
+    float: left;
+    position: absolute;
+    left: 400px;
+}
+input{
+    width: 500px;
+    padding: 7px 10px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius:2px ;
+    font-size: 15px;
+}
+.button{
+    width: 80px;
+    padding: 7px 10px;
+    margin-left: -7px;
+    font-weight: bold;
+}
+.button:hover{
+    cursor: pointer;
+    background: rgb(196, 195, 195);
+}
+.menu22{
+    text-align: center;
+    margin-top: 10px;
+}
+.menu2 img{
+    position: absolute;
+    top: 15px;
+    left:685px
+}
+.label:hover{
+    cursor: pointer;
+}
+.menu3{
+    width: 20%;
+    float: right;
+    position: relative;
+}
+.menubox{
+    border: 1px solid #065FD4;
+    width: 100px;
+    padding: 5px 10px;
+    position: relative;
+    top: 4px;
+    left:150px
+}
+.menubox:hover{
+    cursor: pointer;
+}
+.menubox h4{
+    display: inline;
+    position: absolute;
+    font-size: 19px;
+    top:7px ;
+    left: 40px;
+    color: #065FD4;
+    font-weight: bold;
+}
+.app{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+.app:hover{
+    cursor: pointer;
+}
+.more{
+    position: absolute;
+    top: 10px;
+    left: 115px;
+}
+.more:hover{
+    cursor: pointer;
+}
+.section2{
+    height: 1000px;
+    width: 100%;
+    background: #F9F9F9;
+    position: relative;
+}
+.section2 .first{
+    height: 1000px;
+    width: 5%;
+    background-color: white;
+    display: block;
+    float: left;
+}
+.section2 .first ul{
+    display: block;
+    list-style-type: none;
+}
+.section2 .first ul li a{
+    text-decoration: none;
+}
+.section2 .first ul li a .b .a{
+    display: block;
+    font-size: 10px;
+}
+.b{
+    height: 45px;
+    text-align: center;
+    padding: 15px 0px;
+    color: gray;
+}
+.b:hover{
+    background-color: rgb(231, 231, 231);
+}
+.section2 .second{
+    width: 94%;
+    height: 1000px;    
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 5px ;  
+}
+.video{
+    height: 200px;
+    width: 300px;
+    
+}
+.second .youtube{
+    position: relative;
+}
+.title{
+    margin-left: 10px;
+}
+.titlename{
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+.titlevideo{
+    height: 40px;
+    width: 40px;
+    border-radius: 55px;
+}
+.titles{
+    display: flex;
+    width: 300px;
+    margin-top: 5px;
+}
+.name{
+    font-size: 14px;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.time{
+font-size: 13px;
+font-weight: bold;
+display: block;
+background-color: rgba(0,0,0,.85);
+color: white;
+height: 15px;
+padding: 3px 5px;
+border-radius: 2px;
+position: absolute;
+left:253px;
+top:175px;
+}
